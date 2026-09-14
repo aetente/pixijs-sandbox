@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixiJS</title>
+  <script src="pixi.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+    }
+
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <script type="importmap">
+			{
+				"imports": {
+					"pixi.js": "../pixi.min.js",
+				}
+			}
+  </script>
+  <script type="module" src="../src/BodyTest.js"></script>
+  <script type="module" src="../src/CharacterUITest.js"></script>
+  <script type="module" src="../src/main.js"></script>
+</body>
+
+</html>
