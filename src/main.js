@@ -1,5 +1,7 @@
 import BodyTest from "./BodyTest.js"
 
+//test
+
 const app = new PIXI.Application();
 
 async function init() {
